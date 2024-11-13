@@ -1,0 +1,38 @@
+# Ignorar entorno virtuales comunes
+env/
+.venv/
+
+# Ignorar caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignorar caché de módulos instalados
+*.egg-info/
+.eggs/
+*.egg
+
+# Ignorar archivos creados por el compilador de Cython
+*.c
+*.cpp
+
+# Ignorar caché de herramientas
+.cache/
+.mypy_cache/
+.pytest_cache/
+coverage_html_report/
+htmlcov/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar configuraciones de IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
